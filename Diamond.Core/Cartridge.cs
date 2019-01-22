@@ -1,7 +1,4 @@
-﻿using System;
-using PlayStudios.Functional;
-
-namespace Diamond.Core
+﻿namespace Diamond.Core
 {
     public static class Constants
     {
@@ -18,13 +15,6 @@ namespace Diamond.Core
 
     public sealed class Cartridge
     {
-        public Cartridge(Option<int> test)
-        {
-// s            Test = test;
-        }
-
-        public Option<int> Test;
-
         // 0100 - 0103  Entry Point
         // 0104 - 0133  Nintendo Logo
         // 0143 - 0143  Title
