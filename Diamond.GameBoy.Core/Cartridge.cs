@@ -1,4 +1,4 @@
-﻿namespace Diamond.Core
+﻿namespace Diamond.GameBoy.Core
 {
     public static class Constants
     {

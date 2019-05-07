@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Battleship.gb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Battleship.gb" />
+  </ItemGroup>
+
+</Project>
